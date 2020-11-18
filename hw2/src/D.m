@@ -1,0 +1,1 @@
+L=13 N=87 h=L/Nn=[0:1:N/2]k=2*pi/L*nkh=2*pi/N*nkh_true=khkh_D1=(2-2*cos(kh))kh_D2=(2*cos(kh)-2)./(-1/12*2*cos(kh)-10/12)hold onplot(kh,kh_true.^2)plot(kh,kh_D1)plot(kh,kh_D2,"g")hold offxlabel('kh');ylabel('(k′h)^2');legend('Central difference','Padˊe scheme','(kh)^2');legend('Location','northoutside');print("-djpeg",["D_4",'.jpg'])
