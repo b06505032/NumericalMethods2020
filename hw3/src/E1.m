@@ -1,0 +1,1 @@
+clearclcx=1:7/8:8function f = f(x)  f = log(x)./xendfunctiona = f(x(1))b = f(x(9))c = 2*(f(x(3))+f(x(5))+f(x(7)))d = 4*(f(x(2))+f(x(4))+f(x(6))+f(x(8)))ans = 7 / 8 / 3 * (a + b + c + d)error = abs(2.1620386 - ans)

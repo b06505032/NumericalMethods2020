@@ -1,0 +1,1 @@
+[x,w]=gauss_leg(1,8,9)for i=1:9  y=y+w(i).*log(x(i))./x(i);endz=abs(y-2.1620386);
