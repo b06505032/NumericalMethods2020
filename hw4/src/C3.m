@@ -1,0 +1,1 @@
+clear allclcN=32; x=0:2*pi/N:2*pi/N*(N-1);E=sin(2*x).*sin(2*x)+0.05*(cos(13*x)- cos(17*x)+sin(17*x)-sin(13*x))+0.005*(sin(30*x));Ehat=fft(E)

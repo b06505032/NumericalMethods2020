@@ -1,0 +1,1 @@
+clear allclcfunction f1=f(x);  f1=sin(2*x)+0.1*sin(15*x);endfunctionfunction f1=g(x);  f1=sin(2*x)+0.1*cos(15*x);endfunctionfunction re=remove_boundry_s(x)  L=size(x)(2);  re=x(1,1:L-1);endfunctionaxisx=linspace(0,2*pi,1387);n32=linspace(0,2*pi,33);x32=remove_boundry_s(n32);yf=f(x32);yg=g(x32);h = yf.*yghhat=fft(h)
